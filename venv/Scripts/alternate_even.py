@@ -1,5 +1,6 @@
 def even(range1,range2):
-    alternate = 'yes'
+    #just toggle between yes and no for 13th question -yes for 14-no
+    alternate = 'no'
     for i in range(range1,range2+1):
             if i % 2 == 0:
                 if alternate == 'yes':
